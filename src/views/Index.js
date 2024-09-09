@@ -6,6 +6,8 @@ import { Container, Row } from "reactstrap";
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import CardsFooter from "components/Footers/CardsFooter.js";
+import "assets/css/circle.css";
+
 
 // index page sections
 import Hero from "./IndexSections/Hero.js";

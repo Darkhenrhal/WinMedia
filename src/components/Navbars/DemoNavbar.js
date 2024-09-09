@@ -33,7 +33,7 @@ class DemoNavbar extends React.Component {
           id="navbar-main"
         >
           <Container className="justify-content-between">
-            <NavbarBrand className="" to="/" tag={Link}>
+            <NavbarBrand className="mr-0" to="/" tag={Link}>
               <img
                 alt="..."
                 src={require("assets/img/brand/argon-react-white.png")}
@@ -41,7 +41,7 @@ class DemoNavbar extends React.Component {
             </NavbarBrand>
 
             <Nav className="mx-auto" navbar>
-            <NavItem className="ml-4 mr-4">
+            <NavItem className="ml-8 mr-4">
                 <NavLink to="/our-work" tag={Link}>
                   <span className="nav-link-inner--text">Home</span>
                 </NavLink>

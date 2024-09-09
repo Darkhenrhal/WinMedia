@@ -2,6 +2,8 @@
 import React from "react";
 // nodejs library that concatenates classes
 import classnames from "classnames";
+import "assets/css/circle.css";
+
 
 // reactstrap components
 import {
@@ -42,16 +44,16 @@ class Landing extends React.Component {
           <div className="position-relative">
             {/* shape Hero */}
             <section className="section section-lg section-shaped pb-250">
-              <div className="shape shape-style-1 shape-default">
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
+            <div className="shape shape-style-1 shape-default">
+                  <span className="circle" />
+                  <span className="circle" />
+                  <span className="circle" />
+                  <span className="circle" />
+                  <span className="circle" />
+                  <span className="circle" />
+                  <span className="circle" />
+                  <span className="circle" />
+                  <span className="circle" />
               </div>
               <Container className="py-lg-md d-flex">
                 <div className="col px-0">
