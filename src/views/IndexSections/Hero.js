@@ -24,7 +24,7 @@ class Hero extends React.Component {
               <span className="circle span-50" />
               <span className="circle span-100" />
             </div>
-            <Container className="shape-container d-flex align-items-center py-lg">
+            <Container className="shape-container d-flex align-items-center w-[1500px]  py-lg">
               <div className="col px-0">
                 <Row className="align-items-center justify-content-center">
                   <Col className="text-center" lg="6">
@@ -34,9 +34,9 @@ class Hero extends React.Component {
                       src={require("assets/img/brand/argon-react-white.png")}
                       style={{ width: "200px" }}
                     />
+                    <h1 className="display-1 text-uppercase text-white text-bold font-large font-weight-bold"></h1>
                     <p className="lead text-white">
-                      A beautiful Design System for Bootstrap 4. It's Free and
-                      Open Source.
+                    Helping brands stand out through strategic advertising and PR solutions.
                     </p>
                     <div className="btn-wrapper mt-5">
                       <Button
