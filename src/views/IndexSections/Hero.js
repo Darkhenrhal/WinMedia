@@ -27,7 +27,7 @@ class Hero extends React.Component {
             <Container className="shape-container d-flex align-items-center w-[1500px]  py-lg">
               <div className="col px-0">
                 <Row className="align-items-center justify-content-center">
-                  <Col className="text-center" lg="6">
+                  <Col className="text-center" lg="10">
                     <img
                       alt="..."
                       className="img-fluid"
